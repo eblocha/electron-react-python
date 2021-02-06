@@ -34,11 +34,11 @@ After making the project, we can run my-new-app.exe in my-new-app\out\my-new-app
 
 The main window will start:
 
-![main-window](img\MainWindow.png)
+![main-window](img/MainWindow.png)
 
 We can start task manager to verify the python app has started as well:
 
-![task-manager](img\TaskManager.png)
+![task-manager](img/TaskManager.png)
 
 - app.exe is our python executable created with pyinstaller
 - Hello Electron React is the renderer process
