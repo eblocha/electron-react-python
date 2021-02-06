@@ -27,3 +27,19 @@ yarn make
 ```
 
 The final distribution will be in my-new-app\out 
+
+## Product
+
+After making the project, we can run my-new-app.exe in my-new-app\out\my-new-app-win32-x64\my-new-app.exe
+
+The main window will start:
+
+![main-window](img\MainWindow.png)
+
+We can start task manager to verify the python app has started as well:
+
+![task-manager](img\TaskManager.png)
+
+- app.exe is our python executable created with pyinstaller
+- Hello Electron React is the renderer process
+- my-new-app is the main process
