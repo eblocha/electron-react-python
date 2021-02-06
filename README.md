@@ -2,6 +2,8 @@
 
 This is a barebones desktop app that starts a python process in the background to do processing as if it were a webserver.
 
+The final product is a distributable package that can be run on any desktop environment, no python/node/electron needed!
+
 The frontend is rendered with React.
 
 The final distributable is packaged with Electron-Forge using their webpack template
