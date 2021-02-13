@@ -38,6 +38,10 @@ The main window will start:
 
 ![main-window](img/MainWindow.png)
 
+The javascript is sending an HTTP POST to the web server started by app.exe in order to get the sum of the two numbers.
+
+Performance is not very good, but this can be improved by using TCP with zerorpc instead of HTTP.
+
 We can start task manager to verify the python app has started as well:
 
 ![task-manager](img/TaskManager.png)
