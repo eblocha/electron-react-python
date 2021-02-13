@@ -1,10 +1,11 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Inputs from "./components/Inputs.jsx";
 
 import "./index.scss";
 
 function render() {
-  ReactDOM.render(<h2>Hello from React!</h2>, document.getElementById("app"));
+  ReactDOM.render(<Inputs />, document.getElementById("app"));
 }
 
 render();

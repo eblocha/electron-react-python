@@ -32,6 +32,8 @@ The final distribution will be in my-new-app\out
 
 After making the project, we can run my-new-app.exe in my-new-app\out\my-new-app-win32-x64\my-new-app.exe
 
+The other folder in "\out\" contains the distributable installer for our app.
+
 The main window will start:
 
 ![main-window](img/MainWindow.png)
